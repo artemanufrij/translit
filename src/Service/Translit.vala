@@ -28,6 +28,7 @@
 namespace Translit {
     public class TranslitService : GLib.Object {
         
+        public signal void key_map_loaded (GLib.List<KeyMapItem> list);
         GLib.KeyFile file;
         
         public bool load_dictionary (string lang) {
@@ -40,6 +41,16 @@ namespace Translit {
             } catch (Error e) {
                 warning (e.message);
             }
+
+            GLib.List<KeyMapItem> keymap = new GLib.List<KeyMapItem> ();
+            try {
+                foreach (var item in file.get_keys ("Keymap")) {
+                    keymap.append (new KeyMapItem (item, file.get_string ("Keymap", item)));
+                }
+            } catch (Error e) {
+                warning (e.message);
+            }
+            key_map_loaded (keymap);
 
             return return_value;
         }

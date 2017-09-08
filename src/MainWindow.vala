@@ -30,25 +30,41 @@ namespace Translit {
     public class MainWindow : Gtk.Window {
 
         Settings settings;
+        TranslitService service;
+
         Gtk.TextView input;
         Gtk.ToggleButton active_translit;
-
-        TranslitService service;
+        Gtk.Box key_map;
 
         public MainWindow () {
             settings = Settings.get_default ();
-            service = new TranslitService ();
-            service.load_dictionary (settings.lang);
 
             build_ui ();
+
+            service = new TranslitService ();
+            service.key_map_loaded.connect ((list) => {
+                foreach (var item in key_map.get_children ()) {
+                    key_map.remove (item);
+                }
+
+                foreach (var item in list) {
+                    var lab = new Gtk.Label ("");
+                    lab.justify = Gtk.Justification.CENTER;
+                    lab.use_markup = true;
+                    lab.label = "%s\n<b>%s</b>".printf(item.key, item.val);
+                    key_map.add (lab);
+                }
+                key_map.show_all ();
+            });
+            service.load_dictionary (settings.lang);
 
             present ();
         }
 
         private void build_ui () {
             this.width_request = 600;
-            this.height_request = 400;
-            var content = new Gtk.Grid ();
+            this.height_request = 480;
+            var content = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
 
             var headerbar = new Gtk.HeaderBar ();
             headerbar.title = _("Translit");
@@ -69,7 +85,7 @@ namespace Translit {
                 this.input.grab_focus ();
             });
             headerbar.pack_start (active_translit);
-            
+
             var lang_chooser = new Gtk.ComboBoxText ();
             lang_chooser.append ("ru", "Русский");
             lang_chooser.append ("ua", "Український");
@@ -82,8 +98,11 @@ namespace Translit {
             });
             headerbar.pack_end (lang_chooser);
 
+            key_map = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 10);
+            key_map.margin = 8;
+            key_map.halign = Gtk.Align.CENTER;
+
             input = new Gtk.TextView ();
-            input.expand = true;
             input.wrap_mode = Gtk.WrapMode.WORD;
             input.top_margin = input.left_margin = input.bottom_margin = input.right_margin = 12;
             input.key_press_event.connect ((event) => {
@@ -114,18 +133,19 @@ namespace Translit {
                 }
                 return false;
             });
-            
+
             var input_scroll = new Gtk.ScrolledWindow (null, null);
             input_scroll.expand = true;
             input_scroll.add (input);
 
-            content.attach (input_scroll, 0, 0);
+            content.pack_start (key_map, false, false, 0);
+            content.pack_start (input_scroll);
 
             this.add (content);
             this.show_all ();
             this.input.grab_focus ();
         }
-        
+
         public void toggle_translit () {
             active_translit.active = !active_translit.active;
         }
