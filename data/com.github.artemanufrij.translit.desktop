@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Translit
+GenericName=Translit
+Comment=Write cyrillic characters on latin keyboard
+Keywords=translit;cyrillic;latin;
+Exec=com.github.artemanufrij.translit %U
+Icon=artemanufrij.translit
+Terminal=false
+Type=Application
+Categories=Utility;GNOME;GTK;
+X-GNOME-Gettext-Domain=com.github.artemanufrij.translit
