@@ -149,5 +149,11 @@ namespace Translit {
         public void toggle_translit () {
             active_translit.active = !active_translit.active;
         }
+        
+        public void add_into_clipboard () {
+            Gdk.Display display = this.get_display ();
+            Gtk.Clipboard clipboard = Gtk.Clipboard.get_for_display (display, Gdk.SELECTION_CLIPBOARD);
+            clipboard.set_text (input.buffer.text, -1);
+        }
     }
 }

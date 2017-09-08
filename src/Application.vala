@@ -48,6 +48,14 @@ namespace Translit {
                     mainwindow.toggle_translit ();
                 }
             });
+            var add_into_clipboard = new SimpleAction ("add-into-clipboard", null);
+            add_action (add_into_clipboard);
+            add_accelerator ("<Control><Shift>c", "app.add-into-clipboard", null);
+            add_into_clipboard.activate.connect (() => {
+                if (mainwindow != null) {
+                    mainwindow.add_into_clipboard ();
+                }
+            });
         }
 
         MainWindow mainwindow;
