@@ -27,7 +27,7 @@
 
 namespace Translit {
     public class TranslitService : GLib.Object {
-        
+
         public signal void key_map_loaded (GLib.List<KeyMapItem> list);
         GLib.KeyFile file;
         

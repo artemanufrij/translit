@@ -29,7 +29,7 @@ namespace Translit {
     public class KeyMapItem : GLib.Object {
         public string key { get; private set; }
         public string val { get; private set; }
-        
+
         public KeyMapItem (string key, string val) {
             this.key = key;
             this.val = val;
