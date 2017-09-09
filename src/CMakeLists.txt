@@ -11,6 +11,7 @@ vala_precompile (VALA_C ${CMAKE_PROJECT_NAME}
 PACKAGES
     granite
     gtk+-3.0
+    gtkspell3-3.0
 OPTIONS
     --vapidir=${CMAKE_SOURCE_DIR}/vapi
     --target-glib=2.32

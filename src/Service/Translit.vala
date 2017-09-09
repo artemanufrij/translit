@@ -28,7 +28,7 @@
 namespace Translit {
     public class TranslitService : GLib.Object {
 
-        public signal void key_map_loaded (GLib.List<KeyMapItem> list);
+        public signal void key_map_loaded (GLib.List<KeyMapItem> list, string spell_lang);
         GLib.KeyFile file;
         
         public bool load_dictionary (string lang) {
@@ -50,7 +50,17 @@ namespace Translit {
             } catch (Error e) {
                 warning (e.message);
             }
-            key_map_loaded (keymap);
+
+            string spell_lang = "";
+            try {
+                if (file.has_key ("Spell", "lang")) {
+                    spell_lang = file.get_string ("Spell", "lang");
+                }
+            } catch (Error e) {
+                warning (e.message);
+            }
+
+            key_map_loaded (keymap, spell_lang);
 
             return return_value;
         }

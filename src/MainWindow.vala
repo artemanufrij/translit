@@ -31,10 +31,12 @@ namespace Translit {
 
         Settings settings;
         TranslitService service;
+        GtkSpell.Checker spell;
 
         Gtk.TextView input;
         Gtk.ToggleButton active_translit;
         Gtk.Box key_map;
+        Gtk.Image spell_info;
 
         public MainWindow () {
             settings = Settings.get_default ();
@@ -42,22 +44,34 @@ namespace Translit {
             build_ui ();
 
             service = new TranslitService ();
-            service.key_map_loaded.connect ((list) => {
+            service.key_map_loaded.connect ((list, spell_lang) => {
                 foreach (var item in key_map.get_children ()) {
                     key_map.remove (item);
                 }
 
                 foreach (var item in list) {
-                    var lab = new Gtk.Label ("");
-                    lab.justify = Gtk.Justification.CENTER;
+                    var lab = new Gtk.Label ("%s\n<b>%s</b>".printf(item.key, item.val));
                     lab.use_markup = true;
-                    lab.label = "%s\n<b>%s</b>".printf(item.key, item.val);
+                    lab.justify = Gtk.Justification.CENTER;
                     key_map.add (lab);
                 }
                 key_map.show_all ();
-            });
-            service.load_dictionary (settings.lang);
 
+                try {
+                    spell_info.hide ();
+                    spell.set_language (null);
+                    spell.set_language (spell_lang);
+                } catch (Error e) {
+                    warning (e.message);
+                    spell_info.show ();
+                    spell_info.tooltip_text = _("Spell package couldn't be found.\nInstall [hunspell-%s] dictionary.").printf (spell_lang);
+                }
+            });
+
+            spell = new GtkSpell.Checker();
+            spell.attach (input);
+
+            service.load_dictionary (settings.lang);
             present ();
         }
 
@@ -87,8 +101,8 @@ namespace Translit {
             headerbar.pack_start (active_translit);
 
             var lang_chooser = new Gtk.ComboBoxText ();
-            lang_chooser.append ("ru", "Русский");
-            lang_chooser.append ("ua", "Український");
+            lang_chooser.append ("ru_RU", "Русский");
+            lang_chooser.append ("ua_UA", "Український");
             lang_chooser.active_id = settings.lang;
             lang_chooser.tooltip_text = _("Translit language");
             lang_chooser.changed.connect (() => {
@@ -97,6 +111,9 @@ namespace Translit {
                 this.input.grab_focus ();
             });
             headerbar.pack_end (lang_chooser);
+
+            spell_info = new Gtk.Image.from_icon_name ("help-info-symbolic", Gtk.IconSize.MENU);
+            headerbar.pack_end (spell_info);
 
             key_map = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 10);
             key_map.margin = 8;
@@ -149,7 +166,7 @@ namespace Translit {
         public void toggle_translit () {
             active_translit.active = !active_translit.active;
         }
-        
+
         public void add_into_clipboard () {
             Gdk.Display display = this.get_display ();
             Gtk.Clipboard clipboard = Gtk.Clipboard.get_for_display (display, Gdk.SELECTION_CLIPBOARD);
