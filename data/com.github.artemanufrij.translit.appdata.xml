@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2017 Artem Anufrij <artem.anufrij@live.de> -->
+<component type="desktop">
+    <id>com.github.artemanufrij.translit.desktop</id>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>GPL-3.0+</project_license>
+    <name>Translit</name>
+    <summary>Translit is a simple method of encoding Cyrillic letters with Latin ones</summary>
+    <description>
+        <p>Supported languages:</p>
+        <ul>
+            <li>Russian</li>
+            <li>Urkainian</li>
+        </ul>
+    </description>
+    <categories>
+        <category>Office</category>
+    </categories>
+    <custom>
+        <value key="x-appcenter-color-primary">#4d4d4d</value>
+        <value key="x-appcenter-color-primary-text">rgb(0,0,0)</value>
+        <value key="x-appcenter-suggested-price">1</value>
+    </custom>
+    <developer_name>Artem Anufrij</developer_name>
+    <url type="homepage">https://github.com/artemanufrij/translit</url>
+    <url type="bugtracker">https://github.com/artemanufrij/translit/issues</url>
+    <url type="help">https://github.com/artemanufrij/translit/issues</url>
+    <update_contact>artem.anufrij@live.de</update_contact>
+    <screenshots>
+        <screenshot type="default">
+            <image>https://raw.githubusercontent.com/artemanufrij/translit/master/Screenshot.png</image>
+        </screenshot>
+    </screenshots>
+</component>

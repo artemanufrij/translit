@@ -1,0 +1,17 @@
+Source: com.github.artemanufrij.translit
+Section: x11
+Priority: optional
+Maintainer: Artem Anufrij <artem.anufrij@live.de>
+Build-Depends: cmake (>= 2.8),
+               cmake-elementary,
+               debhelper (>= 9),
+               libgranite-dev,
+               libgtkspell3-3-dev,
+               valac (>= 0.26)
+Standards-Version: 3.9.3
+
+Package: com.github.artemanufrij.translit
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Simple translit tool
+ Translit is a simple method of encoding Cyrillic letters with Latin ones, written especially for elementary OS

@@ -1,4 +1,5 @@
 install (FILES com.github.artemanufrij.translit.desktop DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/applications)
+install (FILES com.github.artemanufrij.translit.appdata.xml DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/metainfo)
 
 install (FILES dictionary/ru_RU DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/${CMAKE_PROJECT_NAME}/dictionary)
 install (FILES dictionary/ua_UA DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/${CMAKE_PROJECT_NAME}/dictionary)
