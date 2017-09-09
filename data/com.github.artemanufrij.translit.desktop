@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Translit
 GenericName=Translit
-Comment=Write cyrillic characters on latin keyboard
+Comment=Simple method of encoding Cyrillic letters with Latin ones
 Keywords=translit;cyrillic;latin;
 Exec=com.github.artemanufrij.translit %U
 Icon=artemanufrij.translit
