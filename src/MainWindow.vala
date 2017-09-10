@@ -89,7 +89,7 @@ namespace Translit {
             active_translit.valign = Gtk.Align.CENTER;
             active_translit.active = true;
             active_translit.image = new Gtk.Image.from_icon_name ("config-language-symbolic", Gtk.IconSize.MENU);
-            active_translit.tooltip_text = _("Disable char transliting");
+            active_translit.tooltip_text = _("Disable character transliting");
             active_translit.toggled.connect (() => {
                 if (active_translit.active) {
                     active_translit.tooltip_text = _("Disable character transliting");

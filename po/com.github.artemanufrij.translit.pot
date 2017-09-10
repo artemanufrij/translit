@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-08 23:38+0200\n"
+"POT-Creation-Date: 2017-09-10 14:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,22 +17,24 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../src/MainWindow.vala:54
+#: ../src/MainWindow.vala:67
+msgid ""
+"Spell package couldn't be found.\n"
+"Install [hunspell-%s] dictionary."
+msgstr ""
+
+#: ../src/MainWindow.vala:84
 msgid "Translit"
 msgstr ""
 
-#: ../src/MainWindow.vala:62
-msgid "Disable char transliting"
-msgstr ""
-
-#: ../src/MainWindow.vala:65
+#: ../src/MainWindow.vala:92 ../src/MainWindow.vala:95
 msgid "Disable character transliting"
 msgstr ""
 
-#: ../src/MainWindow.vala:67
+#: ../src/MainWindow.vala:97
 msgid "Enable character transliting"
 msgstr ""
 
-#: ../src/MainWindow.vala:77
+#: ../src/MainWindow.vala:107
 msgid "Translit language"
 msgstr ""

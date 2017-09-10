@@ -1,27 +1,41 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-08 23:38+0200\n"
+"POT-Creation-Date: 2017-09-10 14:26+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-
-#: ../src/MainWindow.vala:54
-msgid "Translit"
-msgstr ""
-
-#: ../src/MainWindow.vala:62
-msgid "Disable char transliting"
-msgstr ""
-
-#: ../src/MainWindow.vala:65
-msgid "Disable character transliting"
-msgstr ""
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: ../src/MainWindow.vala:67
-msgid "Enable character transliting"
+msgid ""
+"Spell package couldn't be found.\n"
+"Install [hunspell-%s] dictionary."
 msgstr ""
+"Rechtschreibprüfung konnte nicht gefunden werden.\n"
+"Installiere das [hunspell-%s] Wörterbuch."
 
-#: ../src/MainWindow.vala:77
+#: ../src/MainWindow.vala:84
+msgid "Translit"
+msgstr "Translit"
+
+#: ../src/MainWindow.vala:92 ../src/MainWindow.vala:95
+msgid "Disable character transliting"
+msgstr "Buchstabenumsetzung deaktivieren"
+
+#: ../src/MainWindow.vala:97
+msgid "Enable character transliting"
+msgstr "Buchstabenumsetzung aktivieren"
+
+#: ../src/MainWindow.vala:107
 msgid "Translit language"
-msgstr ""
+msgstr "Umsetzungssprache"
+
+#~ msgid "Disable char transliting"
+#~ msgstr "Buchstabenumsetzung deaktivieren"
