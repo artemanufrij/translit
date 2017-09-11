@@ -123,9 +123,11 @@ namespace Translit {
             input.wrap_mode = Gtk.WrapMode.WORD;
             input.top_margin = input.left_margin = input.bottom_margin = input.right_margin = 12;
             input.key_press_event.connect ((event) => {
+                var input_char = event.str[0].to_string ();
+                if (input.buffer.has_selection && input_char[0].isprint ()) {
+                    input.buffer.delete_selection (true, true);
+                }
                 if (active_translit.active) {
-                    var input_char = event.str[0].to_string ();
-                    debug (input_char);
                     if (event.str.length == 1 && (input_char[0].isalpha () || event.str.has_prefix ("*") || event.str.has_prefix ("'"))) {
                         string pre_char = "";
 
