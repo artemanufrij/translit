@@ -8,20 +8,20 @@ msgstr ""
 
 #: ../src/MainWindow.vala:54
 msgid "Translit"
-msgstr ""
+msgstr "Translit"
 
 #: ../src/MainWindow.vala:62
 msgid "Disable char transliting"
-msgstr ""
+msgstr "Vypnout přeměnu znaků"
 
 #: ../src/MainWindow.vala:65
 msgid "Disable character transliting"
-msgstr ""
+msgstr "Vypnout přeměnu znaků"
 
 #: ../src/MainWindow.vala:67
 msgid "Enable character transliting"
-msgstr ""
+msgstr "Zapnout přeměnu znaků"
 
 #: ../src/MainWindow.vala:77
 msgid "Translit language"
-msgstr ""
+msgstr "Jazyk proměny"
