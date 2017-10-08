@@ -23,7 +23,7 @@
        inkscape:collect="always"
        id="linearGradient4203">
       <stop
-         style="stop-color:#ffffff;stop-opacity:0.4"
+         style="stop-color:#ffffff;stop-opacity:0.25098041"
          offset="0"
          id="stop4205" />
       <stop
@@ -56,28 +56,16 @@
          style="stop-color:#000000;stop-opacity:0" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4207">
-      <stop
-         style="stop-color:#000000;stop-opacity:0.1254902"
-         offset="0"
-         id="stop4209" />
-      <stop
-         style="stop-color:#000000;stop-opacity:0"
-         offset="1"
-         id="stop4211" />
-    </linearGradient>
-    <linearGradient
        id="linearGradient4199"
        inkscape:collect="always">
       <stop
          id="stop4201"
          offset="0"
-         style="stop-color:#000000;stop-opacity:0.25098041" />
+         style="stop-color:#ffffff;stop-opacity:0" />
       <stop
          id="stop4203"
          offset="1"
-         style="stop-color:#ffffff;stop-opacity:0.50196081" />
+         style="stop-color:#ffffff;stop-opacity:0.3764706" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
@@ -110,15 +98,6 @@
        x2="32"
        y2="993"
        gradientTransform="translate(0,1.0087664)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4207"
-       id="linearGradient4213"
-       x1="32"
-       y1="1046"
-       x2="32"
-       y2="993"
-       gradientUnits="userSpaceOnUse" />
     <filter
        style="color-interpolation-filters:sRGB;"
        inkscape:label="Drop Shadow"
@@ -282,16 +261,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6568542"
-     inkscape:cx="61.414161"
-     inkscape:cy="26.294127"
+     inkscape:zoom="7.9999999"
+     inkscape:cx="81.520234"
+     inkscape:cy="49.287416"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="2218"
      inkscape:window-height="1264"
-     inkscape:window-x="194"
-     inkscape:window-y="143"
+     inkscape:window-x="1134"
+     inkscape:window-y="111"
      inkscape:window-maximized="0"
      units="px" />
   <metadata
@@ -338,7 +317,8 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-988.36216)">
+     transform="translate(0,-988.36216)"
+     sodipodi:insensitive="true">
     <rect
        ry="0"
        rx="0"
@@ -393,24 +373,30 @@
        y="993.86218"
        rx="2.5"
        ry="2.5" />
-    <rect
-       ry="2"
-       rx="2"
-       y="994.36218"
-       x="6"
-       height="52"
-       width="52"
-       id="rect4205"
-       style="opacity:1;fill:url(#linearGradient4213);fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Icon"
-     sodipodi:insensitive="true">
+     inkscape:label="Icon">
     <g
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4488)"
-       id="text4195">
+       id="g4197"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:0.25;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(0.99643557,0,0,0.98367937,0.11406196,1.5222601)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4199"
+         style="fill:#000000;fill-opacity:1"
+         d="m 18.290283,19.800903 q 4.471436,0 6.848145,2.081299 2.376709,2.081299 2.376709,6.002197 0,3.168946 -1.329346,5.599366 -1.329346,2.43042 -3.85376,3.840332 -2.524414,1.396484 -5.653076,1.396484 l -7.7612304,0 3.6791994,-18.919678 5.693359,0 z m -4.820556,15.858155 3.088378,0 q 2.148438,0 3.800049,-0.913086 1.665039,-0.926514 2.55127,-2.658692 0.899658,-1.732177 0.899658,-4.02832 0,-2.537842 -1.42334,-3.867188 -1.409912,-1.329345 -4.068603,-1.329345 l -2.363282,0 -2.48413,12.796631 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4201"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:27.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';fill:#000000;fill-opacity:1"
+         d="m 52.047607,35.444214 2.484131,0 -1.705322,8.754883 -3.356934,0 1.060791,-5.478516 -12.138671,0 -1.060791,5.478516 -3.343506,0 1.705322,-8.754883 2.081299,0 q 1.195068,-1.624756 2.457275,-4.162598 1.275635,-2.551269 2.269287,-5.505371 l 1.987305,-5.975342 10.594482,0 -3.034668,15.643311 z m -3.826904,0 2.403565,-12.366943 -3.518067,0 -1.033935,3.142089 q -2.081299,6.311036 -4.14917,9.224854 l 6.297607,0 z" />
+    </g>
+    <g
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text4195"
+       transform="matrix(0.99643557,0,0,0.98367937,0.11406196,0.52226016)">
       <path
          d="m 18.290283,19.800903 q 4.471436,0 6.848145,2.081299 2.376709,2.081299 2.376709,6.002197 0,3.168946 -1.329346,5.599366 -1.329346,2.43042 -3.85376,3.840332 -2.524414,1.396484 -5.653076,1.396484 l -7.7612304,0 3.6791994,-18.919678 5.693359,0 z m -4.820556,15.858155 3.088378,0 q 2.148438,0 3.800049,-0.913086 1.665039,-0.926514 2.55127,-2.658692 0.899658,-1.732177 0.899658,-4.02832 0,-2.537842 -1.42334,-3.867188 -1.409912,-1.329345 -4.068603,-1.329345 l -2.363282,0 -2.48413,12.796631 z"
          style="fill:#ffffff;fill-opacity:1"
