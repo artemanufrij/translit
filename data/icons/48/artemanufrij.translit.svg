@@ -76,7 +76,7 @@
        x2="24"
        y2="1009"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.95124839,0,0,0.95124846,0.6950061,48.707777)" />
+       gradientTransform="matrix(0.95124839,0,0,0.95124846,0.6950061,49.707822)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4152"
@@ -86,7 +86,7 @@
        y1="1030"
        x2="24"
        y2="1009"
-       gradientTransform="matrix(0.97567563,0,0,0.97567572,0.58378365,25.027114)" />
+       gradientTransform="matrix(0.97567563,0,0,0.97567572,0.58378365,26.027159)" />
     <filter
        style="color-interpolation-filters:sRGB;"
        inkscape:label="Drop Shadow"
@@ -208,7 +208,7 @@
        fx="24"
        fy="-4.5"
        r="20"
-       gradientTransform="matrix(1,0,0,0.7,0,7.15)"
+       gradientTransform="matrix(1,0,0,0.7,0,8.150045)"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
@@ -263,7 +263,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.313709"
-     inkscape:cx="13.378421"
+     inkscape:cx="-1.7359858"
      inkscape:cy="31.086136"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
@@ -321,7 +321,7 @@
     <rect
        ry="0"
        rx="0"
-       y="1008.3621"
+       y="1009.362"
        x="8"
        height="40"
        width="15.999996"
@@ -333,13 +333,13 @@
        width="8"
        height="40"
        x="24"
-       y="1008.3621"
+       y="1009.362"
        rx="0"
        ry="0" />
     <rect
        ry="3"
        rx="3"
-       y="1008.3621"
+       y="1009.362"
        x="24"
        height="40"
        width="20"
@@ -351,13 +351,13 @@
        width="20"
        height="40"
        x="4"
-       y="1008.3621"
+       y="1009.362"
        rx="3"
        ry="3" />
     <rect
        ry="2.5"
        rx="2.5"
-       y="1008.8621"
+       y="1009.862"
        x="4.5"
        height="39"
        width="39"
@@ -369,7 +369,7 @@
        width="37"
        height="37"
        x="5.4749999"
-       y="1009.8371"
+       y="1010.837"
        rx="1.5"
        ry="1.5" />
   </g>
@@ -379,9 +379,9 @@
      inkscape:label="Icon"
      style="display:inline">
     <g
-       transform="matrix(0.95311228,0,0,0.90170614,1.1253055,3.3590526)"
+       transform="matrix(0.95311228,0,0,0.90170614,1.1253055,4.3590976)"
        id="g4203"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.25">
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:0.25;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
       <path
          inkscape:connector-curvature="0"
          id="path4205"
@@ -396,7 +396,7 @@
     <g
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="text4195"
-       transform="matrix(0.95311228,0,0,0.90170614,1.1253055,2.3590526)">
+       transform="matrix(0.95311228,0,0,0.90170614,1.1253055,3.3590976)">
       <path
          d="m 14.029297,15.12793 q 3.251953,0 4.980469,1.513672 1.728515,1.513671 1.728515,4.365234 0,2.304687 -0.966797,4.072266 -0.966797,1.767578 -2.802734,2.792968 -1.835937,1.015625 -4.111328,1.015625 l -5.6445314,0 2.6757813,-13.759765 4.1406251,0 z m -3.505859,11.533203 2.246093,0 q 1.5625,0 2.763672,-0.664063 1.210938,-0.673828 1.855469,-1.933593 0.654297,-1.259766 0.654297,-2.929688 0,-1.845703 -1.035157,-2.8125 -1.02539,-0.966797 -2.958984,-0.966797 l -1.71875,0 -1.80664,9.306641 z"
          style="fill:#ffffff;fill-opacity:1"
@@ -420,7 +420,7 @@
        width="40"
        height="14"
        x="4"
-       y="4"
+       y="5.0000443"
        ry="2" />
   </g>
 </svg>
