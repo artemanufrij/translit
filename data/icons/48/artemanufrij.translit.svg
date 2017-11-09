@@ -205,11 +205,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.313708"
-     inkscape:cx="26.328202"
-     inkscape:cy="13.192926"
+     inkscape:zoom="22.627417"
+     inkscape:cx="24.875181"
+     inkscape:cy="22.028274"
      inkscape:document-units="px"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      inkscape:window-width="3440"
@@ -262,6 +262,24 @@
      transform="translate(0,-1004.3621)"
      style="display:inline;opacity:1">
     <rect
+       style="opacity:1;fill:#404040;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       id="rect4136"
+       width="20"
+       height="40"
+       x="4"
+       y="1009.362"
+       rx="3"
+       ry="3" />
+    <rect
+       ry="3"
+       rx="3"
+       y="1009.362"
+       x="24"
+       height="40"
+       width="20"
+       id="rect4185"
+       style="opacity:1;fill:#c0c0c0;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
+    <rect
        style="opacity:1;fill:#c0c0c0;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        id="rect4189"
        width="4"
@@ -279,24 +297,6 @@
        width="4"
        id="rect4187"
        style="opacity:1;fill:#404040;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
-    <rect
-       ry="3"
-       rx="3"
-       y="1009.362"
-       x="24"
-       height="40"
-       width="20"
-       id="rect4185"
-       style="opacity:1;fill:#c0c0c0;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
-    <rect
-       style="opacity:1;fill:#404040;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
-       id="rect4136"
-       width="20"
-       height="40"
-       x="4"
-       y="1009.362"
-       rx="3"
-       ry="3" />
     <rect
        ry="2.5"
        rx="2.5"
