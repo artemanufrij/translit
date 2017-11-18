@@ -1,7 +1,7 @@
 <schemalist>
 	<schema path="/com/github/artemanufrij/translit/" id="com.github.artemanufrij.translit" gettext-domain="com.github.artemanufrij.translit">
 		<key name="lang" type="s">
-			<default>"ru"</default>
+			<default>"ru_RU"</default>
 			<summary>Language.</summary>
 			<description>Language.</description>
 		</key>

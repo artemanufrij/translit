@@ -31,4 +31,14 @@
             <image>https://raw.githubusercontent.com/artemanufrij/translit/master/Screenshot.png</image>
         </screenshot>
     </screenshots>
+    <releases>
+        <release version="0.1.3" date="2017-11-20">
+            <description>
+                <p>Fix:</p>
+                <ul>
+                    <li>Set default language after installing app</li>
+                </ul>
+            </description>
+        </release>
+    </releases>
 </component>
