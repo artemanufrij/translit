@@ -4,8 +4,8 @@ install (FILES com.github.artemanufrij.translit.appdata.xml DESTINATION ${CMAKE_
 install (FILES dictionary/ru_RU DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/${CMAKE_PROJECT_NAME}/dictionary)
 install (FILES dictionary/ua_UA DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/${CMAKE_PROJECT_NAME}/dictionary)
 
-install (FILES icons/artemanufrij.translit.svg DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/icons/hicolor/)
-install (FILES icons/32/artemanufrij.translit.svg DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/icons/hicolor/32x32/apps/)
-install (FILES icons/48/artemanufrij.translit.svg DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/icons/hicolor/48x48/apps/)
-install (FILES icons/artemanufrij.translit.svg DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/icons/hicolor/64x64/apps/)
-install (FILES icons/artemanufrij.translit.svg DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/icons/hicolor/128x128/apps/)
+install (FILES icons/com.github.artemanufrij.translit.svg DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/icons/hicolor/)
+install (FILES icons/32/com.github.artemanufrij.translit.svg DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/icons/hicolor/32x32/apps/)
+install (FILES icons/48/com.github.artemanufrij.translit.svg DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/icons/hicolor/48x48/apps/)
+install (FILES icons/com.github.artemanufrij.translit.svg DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/icons/hicolor/64x64/apps/)
+install (FILES icons/com.github.artemanufrij.translit.svg DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/icons/hicolor/128x128/apps/)
