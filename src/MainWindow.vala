@@ -102,7 +102,8 @@ namespace Translit {
 
             var lang_chooser = new Gtk.ComboBoxText ();
             lang_chooser.append ("ru_RU", "Русский");
-            lang_chooser.append ("ua_UA", "Український");
+            lang_chooser.append ("by_BY", "Беларуская");
+            lang_chooser.append ("ua_UA", "Українська");
             lang_chooser.active_id = settings.lang;
             lang_chooser.tooltip_text = _("Translit language");
             lang_chooser.changed.connect (() => {
