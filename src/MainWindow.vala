@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2017-2017 Artem Anufrij <artem.anufrij@live.de>
+ * Copyright (c) 2017-2018 Artem Anufrij <artem.anufrij@live.de>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
@@ -102,7 +102,7 @@ namespace Translit {
 
             var lang_chooser = new Gtk.ComboBoxText ();
             lang_chooser.append ("ru_RU", "Русский");
-            lang_chooser.append ("by_BY", "Беларуская");
+            lang_chooser.append ("be_BY", "Беларуская");
             lang_chooser.append ("ua_UA", "Українська");
             lang_chooser.active_id = settings.lang;
             lang_chooser.tooltip_text = _("Translit language");
