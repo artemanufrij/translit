@@ -3,6 +3,7 @@ install (FILES com.github.artemanufrij.translit.appdata.xml DESTINATION ${CMAKE_
 
 install (FILES dictionary/ru_RU DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/${CMAKE_PROJECT_NAME}/dictionary)
 install (FILES dictionary/ua_UA DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/${CMAKE_PROJECT_NAME}/dictionary)
+install (FILES dictionary/by_BY DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/${CMAKE_PROJECT_NAME}/dictionary)
 
 install (FILES icons/com.github.artemanufrij.translit.svg DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/icons/hicolor/)
 install (FILES icons/32/com.github.artemanufrij.translit.svg DESTINATION ${CMAKE_INSTALL_FULL_DATAROOTDIR}/icons/hicolor/32x32/apps/)
