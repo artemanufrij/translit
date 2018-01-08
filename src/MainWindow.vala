@@ -26,9 +26,7 @@
  */
 
 namespace Translit {
-
     public class MainWindow : Gtk.Window {
-
         Settings settings;
         TranslitService service;
         GtkSpell.Checker spell;
