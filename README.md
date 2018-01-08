@@ -1,9 +1,16 @@
-# Translit
+<div>
+  <h1 align="center">Translit</h1>
+  <h3 align="center">Translit is a method of encoding Cyrillic letters with Latin ones</h3>
+  <p align="center">Designed for <a href="https://elementary.io"> elementary OS</p>
+</div>
+<p align="center">
+  <a href="https://appcenter.elementary.io/com.github.artemanufrij.translit">
+    <img src="https://appcenter.elementary.io/badge.svg" alt="Get it on AppCenter">
+  </a>
+</p>
 
-[![Get it on AppCenter](https://appcenter.elementary.io/badge.svg)](https://appcenter.elementary.io/com.github.artemanufrij.translit)
+<br/>
 
-### A simple translit tool designed for [elementary OS](https://elementary.io)
-Translit is a method of encoding Cyrillic letters with Latin ones.
 ![screenshot](Screenshot.png)
 
 ## Donations
