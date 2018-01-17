@@ -9,7 +9,7 @@
   </a>
 </p>
 <p align="center">
-  <img src="Screenshot.png"/>
+  <img src="screenshots/Screenshot.png"/>
 </p>
 
 ## Donations

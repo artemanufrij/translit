@@ -16,6 +16,8 @@
     </description>
     <categories>
         <category>Office</category>
+        <category>Translation</category>
+        <category>Languages</category>
     </categories>
     <custom>
         <value key="x-appcenter-color-primary">#4d4d4d</value>
@@ -29,10 +31,18 @@
     <update_contact>artem.anufrij@live.de</update_contact>
     <screenshots>
         <screenshot type="default">
-            <image>https://raw.githubusercontent.com/artemanufrij/translit/master/Screenshot.png</image>
+            <image>https://raw.githubusercontent.com/artemanufrij/translit/master/screenshots/Screenshot.png</image>
         </screenshot>
     </screenshots>
     <releases>
+        <release version="0.1.5" date="2018-01-18">
+            <description>
+                <p>Changes:</p>
+                <ul>
+                    <li>Updated 'Category' in .Desktop and Appdata</li>
+                </ul>
+            </description>
+        </release>
         <release version="0.1.4" date="2018-01-10">
             <description>
                 <p>New:</p>
