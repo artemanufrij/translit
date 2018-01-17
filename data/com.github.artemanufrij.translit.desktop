@@ -7,5 +7,5 @@ Exec=com.github.artemanufrij.translit %U
 Icon=com.github.artemanufrij.translit
 Terminal=false
 Type=Application
-Categories=Office;Utility;GNOME;GTK;
+Categories=Office;Utility;GNOME;GTK;Translation;Languages;
 X-GNOME-Gettext-Domain=com.github.artemanufrij.translit
