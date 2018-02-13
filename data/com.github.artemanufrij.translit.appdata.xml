@@ -35,16 +35,12 @@
         </screenshot>
     </screenshots>
     <releases>
-        <release version="0.1.6" date="2018-02-15">
+        <release version="0.1.5" date="2018-02-15">
             <description>
                 <p>Improvements:</p>
                 <ul>
                     <li>Added hunspell depends</li>
                 </ul>
-            </description>
-        </release>
-        <release version="0.1.5" date="2018-01-18">
-            <description>
                 <p>Changes:</p>
                 <ul>
                     <li>Updated 'Category' in .Desktop and Appdata</li>
