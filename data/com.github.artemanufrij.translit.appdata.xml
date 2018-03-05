@@ -35,6 +35,14 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="0.1.6" date="2018-03-06">
+            <description>
+                <p>Fix:</p>
+                <ul>
+                    <li>[RU]: F-Ф letter</li>
+                </ul>
+            </description>
+        </release>
         <release version="0.1.5" date="2018-02-15">
             <description>
                 <p>Improvements:</p>
