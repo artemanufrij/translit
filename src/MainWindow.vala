@@ -81,6 +81,7 @@ namespace Translit {
             var headerbar = new Gtk.HeaderBar ();
             headerbar.title = _("Translit");
             headerbar.show_close_button = true;
+            headerbar.get_style_context ().add_class ("default-decoration");
             this.set_titlebar (headerbar);
 
             active_translit = new Gtk.ToggleButton ();
