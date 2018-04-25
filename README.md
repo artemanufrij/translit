@@ -15,3 +15,25 @@
 <p align="center">
   <img src="screenshots/Screenshot.png"/>
 </p>
+
+## Install from Github.
+
+As first you need elementary SDK
+```
+sudo apt install elementary-sdk
+```
+
+Clone repository and change directory
+```
+git clone https://github.com/artemanufrij/translit.git
+cd translit
+```
+
+Compile, install and start Translit on your system
+```
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+sudo make install
+com.github.artemanufrij.translit
+```
