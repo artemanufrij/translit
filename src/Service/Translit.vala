@@ -30,7 +30,7 @@ namespace Translit {
 
         public signal void key_map_loaded (GLib.List<KeyMapItem> list, string spell_lang);
         GLib.KeyFile file;
-        
+
         public bool load_dictionary (string lang) {
             string dictionary = "/" + Constants.PKGDATADIR + "/dictionary/" + lang;
             file = new GLib.KeyFile ();
@@ -75,6 +75,16 @@ namespace Translit {
                 } else if (file.has_key ("Translit", return_value)) {
                     return_value = file.get_string ("Translit", return_value);
                 }
+            } catch (Error e) {
+                warning (e.message);
+            }
+            return return_value;
+        }
+
+        public bool is_translitable (string input_char) {
+            bool return_value = false;
+            try {
+                return_value = file.has_key ("Translit", input_char);
             } catch (Error e) {
                 warning (e.message);
             }

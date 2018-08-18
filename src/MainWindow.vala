@@ -123,32 +123,28 @@ namespace Translit {
             input.wrap_mode = Gtk.WrapMode.WORD;
             input.top_margin = input.left_margin = input.bottom_margin = input.right_margin = 12;
             input.key_press_event.connect ((event) => {
-                var input_char = event.str[0].to_string ();
-                if (input.buffer.has_selection && input_char[0].isprint ()) {
+                if (input.buffer.has_selection && event.str[0].isprint ()) {
                     input.buffer.delete_selection (true, true);
                 }
-                if (active_translit.active) {
-                    if (event.str.length == 1 && (input_char[0].isalpha () || event.str.has_prefix ("*") || event.str.has_prefix ("'"))) {
-                        string pre_char = "";
+                if (active_translit.active && service.is_translitable(event.str)) {
+                    string pre_char = "";
+                    var mark = input.buffer.get_insert ();
+                    Gtk.TextIter current_iter;
+                    input.buffer.get_iter_at_mark (out current_iter, mark);
 
-                        var mark = input.buffer.get_insert ();
-                        Gtk.TextIter current_iter;
-                        input.buffer.get_iter_at_mark (out current_iter, mark);
-
-                        var pre_pos_iter = current_iter;
-                        if(pre_pos_iter.backward_char ()) {
-                            pre_char = input.buffer.get_slice (pre_pos_iter, current_iter, false);
-                        }
-
-                        bool mod;
-                        var new_char = service.translit (input_char, pre_char, out mod);
-                        if (mod) {
-                            input.buffer.delete_interactive (ref pre_pos_iter, ref current_iter, true);
-                        }
-
-                        input.insert_at_cursor (new_char);
-                        return true;
+                    var pre_pos_iter = current_iter;
+                    if(pre_pos_iter.backward_char ()) {
+                        pre_char = input.buffer.get_slice (pre_pos_iter, current_iter, false);
                     }
+
+                    bool mod;
+                    var new_char = service.translit (event.str, pre_char, out mod);
+                    if (mod) {
+                        input.buffer.delete_interactive (ref pre_pos_iter, ref current_iter, true);
+                    }
+
+                    input.insert_at_cursor (new_char);
+                    return true;
                 }
                 return false;
             });
