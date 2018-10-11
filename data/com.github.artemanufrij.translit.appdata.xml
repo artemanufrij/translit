@@ -5,8 +5,9 @@
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>GPL-3.0+</project_license>
     <name>Translit</name>
-    <summary>Translit is a simple method of encoding Cyrillic letters with Latin ones like 'Vsem privet' 'Всем привет'</summary>
+    <summary>Translit is a simple method of encoding Cyrillic letters with Latin ones</summary>
     <description>
+        <p>The term is derived from transliteration, the system of replacing letters of one alphabet with letters of another</p>
         <p>Supported languages:</p>
         <ul>
             <li>Russian</li>
