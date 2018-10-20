@@ -38,9 +38,8 @@ cd translit
 
 Compile, install and start Translit on your system
 ```
-mkdir build
+meson build --prefix=/usr
 cd build
-cmake -DCMAKE_INSTALL_PREFIX=/usr ..
-sudo make install
+sudo ninja install
 com.github.artemanufrij.translit
 ```
