@@ -32,7 +32,7 @@ namespace Translit {
         GLib.KeyFile file;
 
         public bool load_dictionary (string lang) {
-            string dictionary = "/" + Constants.PKGDATADIR + "/dictionary/" + lang;
+            string dictionary = "/usr/share/" + GLib.Environment.get_application_name () + "/dictionary/" + lang;
             file = new GLib.KeyFile ();
 
             var return_value = false;

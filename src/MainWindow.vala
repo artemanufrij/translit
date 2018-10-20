@@ -36,9 +36,12 @@ namespace Translit {
         Gtk.Box key_map;
         Gtk.Image spell_info;
 
-        public MainWindow () {
+        construct {
             settings = Settings.get_default ();
+        }
 
+        public MainWindow () {
+            load_settings ();
             build_ui ();
 
             service = new TranslitService ();
@@ -70,18 +73,18 @@ namespace Translit {
             spell.attach (input);
 
             service.load_dictionary (settings.lang);
-            present ();
+            this.delete_event.connect (() => {
+                save_settings ();
+                return false;
+            });
         }
 
         private void build_ui () {
-            this.width_request = 600;
-            this.height_request = 480;
             var content = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
 
             var headerbar = new Gtk.HeaderBar ();
             headerbar.title = _("Translit");
             headerbar.show_close_button = true;
-            headerbar.get_style_context ().add_class ("default-decoration");
             this.set_titlebar (headerbar);
 
             active_translit = new Gtk.ToggleButton ();
@@ -169,6 +172,30 @@ namespace Translit {
             Gdk.Display display = this.get_display ();
             Gtk.Clipboard clipboard = Gtk.Clipboard.get_for_display (display, Gdk.SELECTION_CLIPBOARD);
             clipboard.set_text (input.buffer.text, -1);
+        }
+
+        private void load_settings () {
+            this.set_default_size (settings.window_width, settings.window_height);
+
+            if (settings.window_x < 0 || settings.window_y < 0 ) {
+                this.window_position = Gtk.WindowPosition.CENTER;
+            } else {
+                this.move (settings.window_x, settings.window_y);
+            }
+
+            Gtk.Settings.get_default ().gtk_application_prefer_dark_theme = settings.use_dark_theme;
+        }
+
+        private void save_settings () {
+            int x, y;
+            this.get_position (out x, out y);
+            settings.window_x = x;
+            settings.window_y = y;
+
+            int width, height;
+            this.get_size (out width, out height);
+            settings.window_height = height;
+            settings.window_width = width;
         }
     }
 }

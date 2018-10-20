@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2017 Artem Anufrij <artem.anufrij@live.de> -->
 <component type="desktop">
-    <id>com.github.artemanufrij.translit.desktop</id>
+    <id>com.github.artemanufrij.translit</id>
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>GPL-3.0+</project_license>
     <name>Translit</name>
@@ -36,6 +36,15 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="1.0.0" date="2018-10-22">
+            <description>
+                Move to Meson
+                <p>New:</p>
+                <ul>
+                    <li>Save and restore window size and position</li>
+                </ul>
+            </description>
+        </release>
         <release version="0.2.1" date="2018-08-20">
             <description>
                 Small improvements for german keyboards
