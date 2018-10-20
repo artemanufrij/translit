@@ -25,6 +25,11 @@ As first you need elementary SDK
 sudo apt install elementary-sdk
 ```
 
+Install dependencies
+```
+sudo apt install libgtkspell3-3-dev
+```
+
 Clone repository and change directory
 ```
 git clone https://github.com/artemanufrij/translit.git
