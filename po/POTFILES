@@ -1,5 +1,5 @@
-Objects/KeyMapItem.vala
-Service/Translit.vala
-Settings.vala
-MainWindow.vala
-Application.vala
+src/Objects/KeyMapItem.vala
+src/Service/Translit.vala
+src/Settings.vala
+src/MainWindow.vala
+src/Application.vala
