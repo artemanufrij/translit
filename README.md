@@ -1,6 +1,6 @@
 <div>
   <h1 align="center">Translit</h1>
-  <h3 align="center"><img src="data/icons/com.github.artemanufrij.translit.svg"/><br>Translit is a method of encoding Cyrillic letters with Latin ones</h3>
+  <h3 align="center"><img src="data/icons/64/com.github.artemanufrij.translit.svg"/><br>Translit is a method of encoding Cyrillic letters with Latin ones</h3>
   <p align="center">Designed for <a href="https://elementary.io"> elementary OS</p>
 </div>
 
