@@ -1,0 +1,117 @@
+# French translations for extra package.
+# Copyright (C) 2019 THE extra'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+# NathanBnm, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-27 09:30+0100\n"
+"PO-Revision-Date: 2019-03-27 09:30+0100\n"
+"Last-Translator: NathanBnm\n"
+"Language-Team: Français\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:7
+#: data/com.github.artemanufrij.translit.desktop.in:3
+#: data/com.github.artemanufrij.translit.desktop.in:4
+msgid "Translit"
+msgstr "Translit"
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:8
+msgid ""
+"Translit is a simple method of encoding Cyrillic letters with Latin ones"
+msgstr "Translit est une simple façon d'encoder des caractères cyrilliques avec des caractères latins"
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:10
+msgid ""
+"The term is derived from transliteration, the system of replacing letters of "
+"one alphabet with letters of another"
+msgstr "Le terme est dérivé de translitération, le système de remplacement des lettres d'un alphabet constitué de lettres à un autre alphabet"
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:11
+msgid "Supported languages:"
+msgstr "Langages supportés :"
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:13
+msgid "Russian"
+msgstr "Russe"
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:14
+msgid "Belarusian"
+msgstr "Biélorusse"
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:15
+msgid "Ukrainian"
+msgstr "Ukrainien"
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:28
+msgid "Artem Anufrij"
+msgstr "Artem Anufrij"
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:42
+#: data/com.github.artemanufrij.translit.appdata.xml.in:80
+msgid "New:"
+msgstr "Nouveau :"
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:44
+msgid "Save and restore window size and position"
+msgstr "Enregistrement et restauration de la taille et de la position de la fenêtre"
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:49
+msgid "Small improvements for german keyboards"
+msgstr "Petits ajustements pour les claviers allemands"
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:54
+msgid "Prepare for JUNO"
+msgstr "Préparation pour Juno"
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:60
+#: data/com.github.artemanufrij.translit.appdata.xml.in:88
+msgid "Fix:"
+msgstr "Correction :"
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:62
+msgid "[RU]: F-Ф letter"
+msgstr "[RU] : Lettre F - Ф"
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:68
+msgid "Improvements:"
+msgstr "Améliorations :"
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:70
+msgid "Added hunspell depends"
+msgstr "Ajout de la dépendance hunspell"
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:72
+msgid "Changes:"
+msgstr "Modifications :"
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:74
+msgid "Updated 'Category' in .Desktop and Appdata"
+msgstr "Mise à jour de la catégorie dans les fichiers Desktop et Appdata"
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:82
+msgid "Added Belarus Support (by Michał Rowicki)"
+msgstr "Ajout de la prise en charge du biélorusse (par Michał Rowicki)"
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:90
+msgid "Set default language after installing app"
+msgstr "Définit le langage par défaut après avoir installé l'application"
+
+#: data/com.github.artemanufrij.translit.desktop.in:5
+msgid "Simple method of encoding Cyrillic letters with Latin ones"
+msgstr "Simple façon d'encoder des caractères cyrilliques avec des caractères latins"
+
+#: data/com.github.artemanufrij.translit.desktop.in:6
+msgid "translit;cyrillic;latin;"
+msgstr "translit;cyrillique;latin;"
+
+#: data/com.github.artemanufrij.translit.desktop.in:8
+msgid "com.github.artemanufrij.translit"
+msgstr "com.github.artemanufrij.translit"

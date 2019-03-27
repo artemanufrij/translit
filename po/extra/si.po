@@ -1,0 +1,116 @@
+# Sinhala translations for extra package.
+# Copyright (C) 2019 THE extra'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-27 09:30+0100\n"
+"PO-Revision-Date: 2019-03-27 09:30+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: si\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:7
+#: data/com.github.artemanufrij.translit.desktop.in:3
+#: data/com.github.artemanufrij.translit.desktop.in:4
+msgid "Translit"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:8
+msgid ""
+"Translit is a simple method of encoding Cyrillic letters with Latin ones"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:10
+msgid ""
+"The term is derived from transliteration, the system of replacing letters of "
+"one alphabet with letters of another"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:11
+msgid "Supported languages:"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:13
+msgid "Russian"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:14
+msgid "Belarusian"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:15
+msgid "Ukrainian"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:28
+msgid "Artem Anufrij"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:42
+#: data/com.github.artemanufrij.translit.appdata.xml.in:80
+msgid "New:"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:44
+msgid "Save and restore window size and position"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:49
+msgid "Small improvements for german keyboards"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:54
+msgid "Prepare for JUNO"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:60
+#: data/com.github.artemanufrij.translit.appdata.xml.in:88
+msgid "Fix:"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:62
+msgid "[RU]: F-Ф letter"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:68
+msgid "Improvements:"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:70
+msgid "Added hunspell depends"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:72
+msgid "Changes:"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:74
+msgid "Updated 'Category' in .Desktop and Appdata"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:82
+msgid "Added Belarus Support (by Michał Rowicki)"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.appdata.xml.in:90
+msgid "Set default language after installing app"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.desktop.in:5
+msgid "Simple method of encoding Cyrillic letters with Latin ones"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.desktop.in:6
+msgid "translit;cyrillic;latin;"
+msgstr ""
+
+#: data/com.github.artemanufrij.translit.desktop.in:8
+msgid "com.github.artemanufrij.translit"
+msgstr ""
