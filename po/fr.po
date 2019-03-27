@@ -24,4 +24,4 @@ msgstr "Activer la transcription des caractères"
 
 #: ../src/MainWindow.vala:77
 msgid "Translit language"
-msgstr "Langage de transcription"
+msgstr "Langue de transcription"
