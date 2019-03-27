@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 09:30+0100\n"
+"POT-Creation-Date: 2019-03-27 13:44+0100\n"
 "PO-Revision-Date: 2019-03-27 09:30+0100\n"
 "Last-Translator: NathanBnm\n"
 "Language-Team: Français\n"
@@ -26,13 +26,17 @@ msgstr "Translit"
 #: data/com.github.artemanufrij.translit.appdata.xml.in:8
 msgid ""
 "Translit is a simple method of encoding Cyrillic letters with Latin ones"
-msgstr "Translit est une simple façon d'encoder des caractères cyrilliques avec des caractères latins"
+msgstr ""
+"Translit est une simple façon d'encoder des caractères cyrilliques avec des "
+"caractères latins"
 
 #: data/com.github.artemanufrij.translit.appdata.xml.in:10
 msgid ""
 "The term is derived from transliteration, the system of replacing letters of "
 "one alphabet with letters of another"
-msgstr "Le terme est dérivé de translitération, le système de remplacement des lettres d'un alphabet constitué de lettres à un autre alphabet"
+msgstr ""
+"Le terme est dérivé de translitération, le système de remplacement des "
+"lettres d'un alphabet constitué de lettres à un autre alphabet"
 
 #: data/com.github.artemanufrij.translit.appdata.xml.in:11
 msgid "Supported languages:"
@@ -61,7 +65,8 @@ msgstr "Nouveau :"
 
 #: data/com.github.artemanufrij.translit.appdata.xml.in:44
 msgid "Save and restore window size and position"
-msgstr "Enregistrement et restauration de la taille et de la position de la fenêtre"
+msgstr ""
+"Enregistrement et restauration de la taille et de la position de la fenêtre"
 
 #: data/com.github.artemanufrij.translit.appdata.xml.in:49
 msgid "Small improvements for german keyboards"
@@ -106,7 +111,8 @@ msgstr "Définit le langage par défaut après avoir installé l'application"
 
 #: data/com.github.artemanufrij.translit.desktop.in:5
 msgid "Simple method of encoding Cyrillic letters with Latin ones"
-msgstr "Simple façon d'encoder des caractères cyrilliques avec des caractères latins"
+msgstr ""
+"Simple façon d'encoder des caractères cyrilliques avec des caractères latins"
 
 #: data/com.github.artemanufrij.translit.desktop.in:6
 msgid "translit;cyrillic;latin;"
