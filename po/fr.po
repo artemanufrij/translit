@@ -12,16 +12,16 @@ msgstr "Translit"
 
 #: ../src/MainWindow.vala:62
 msgid "Disable char transliting"
-msgstr "Désactiver la translitération"
+msgstr "Désactiver la transcription des caractères"
 
 #: ../src/MainWindow.vala:65
 msgid "Disable character transliting"
-msgstr "Désactiver la translitération"
+msgstr "Désactiver la transcription des caractères"
 
 #: ../src/MainWindow.vala:67
 msgid "Enable character transliting"
-msgstr "Activer la translitération"
+msgstr "Activer la transcription des caractères"
 
 #: ../src/MainWindow.vala:77
 msgid "Translit language"
-msgstr "Langage de translitération"
+msgstr "Langage de transcription"
